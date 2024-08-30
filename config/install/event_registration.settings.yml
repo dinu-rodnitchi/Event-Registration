@@ -1,0 +1,5 @@
+departments:
+  demo: 'Demo Department'
+dependencies:
+  module:
+    - event_registration

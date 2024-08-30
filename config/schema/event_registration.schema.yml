@@ -1,0 +1,11 @@
+# Schema for the configuration files of the Event Registration module.
+event_registration.settings:
+  type: config_object
+  label: 'Event Registration departments'
+  mapping:
+    departments:
+      type: sequence
+      label: 'Departments'
+      sequence:
+        type: string
+        label: 'Departments mapping'

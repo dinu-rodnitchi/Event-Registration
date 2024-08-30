@@ -1,0 +1,4 @@
+manage event registrations:
+  title: 'Manage event registrations'
+  description: 'Allows to manage the event registration records.'
+  restrict access: true

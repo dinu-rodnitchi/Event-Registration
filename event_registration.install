@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the Event Registration module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function event_registration_install() {
+  \Drupal::messenger()->addStatus(t('Event Registration successfully installed.'));
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function event_registration_uninstall() {
+  \Drupal::messenger()->addStatus(t('Event Registration successfully uninstalled.'));
+}

@@ -1,0 +1,16 @@
+event_registration.settings_form:
+  path: '/admin/config/add-department'
+  defaults:
+    _title: 'Manage event registrations'
+    _form: 'Drupal\event_registration\Form\SettingsForm'
+  requirements:
+    _permission: 'manage event registrations'
+
+event_registration.registration:
+  path: '/registration/{department}'
+  defaults:
+    _title: 'Registration'
+    _form: 'Drupal\event_registration\Form\RegistrationForm'
+    department: ''
+  requirements:
+    _permission: 'access content'
